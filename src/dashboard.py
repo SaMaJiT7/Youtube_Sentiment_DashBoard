@@ -65,7 +65,8 @@ def load_data(csv_filename):
         st.error(f"Error loading data from {csv_filename}: {e}")
         return pd.DataFrame()
 
-    
+
+@st.cache_data(ttl=60)
 def generate_wordcloud(text_series):
     """Generates a word cloud from a pandas series of text."""
     if text_series.empty or text_series.isnull().all():

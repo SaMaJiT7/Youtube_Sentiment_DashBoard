@@ -15,3 +15,6 @@ src/__pycache__/
 src/backend/__pycache__/
 
 src/.tio.tokens.json
+
+#ignore the images folder
+src/images

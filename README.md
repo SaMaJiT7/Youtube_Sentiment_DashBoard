@@ -10,6 +10,12 @@ Client (bot.py): A client that fetches chat from YouTube and sends it to the ser
 
 Dashboard (dashboard.py): A Streamlit app that visualizes the saved data.
 
+![Dashboard Preview - page1](src/images/FIRST_PAGE_1.png)
+![Dashboard Preview - page2](src/images/SECOND_PAGE_2.png)
+![Dashboard Preview - page3](src/images/THIRD_PAGE_3.png)
+
+
+
 🚀 How to Run This Project
 
 1. Setup
@@ -26,6 +32,7 @@ bot\Scripts\activate
 pip install -r requirements.txt
 
 # Create your .env file
+It will contain you YouTube API KEY
 # Go to the 'src/' folder
 cd src
 # Rename '.env.example' to '.env'
@@ -40,7 +47,7 @@ You must run these in the correct order, from your src/ folder.
 Terminal 1: Run the SERVER ("Brain")
 
 # From the src/ folder
-uvicorn fastapi_server:app --port 8080
+uvicorn chat:app --port 8080
 
 
 Wait for it to say: INFO: Application startup complete.
