@@ -10,13 +10,13 @@ Client (bot.py): A client that fetches chat from YouTube and sends it to the ser
 
 Dashboard (dashboard.py): A Streamlit app that visualizes the saved data.
 
-#All the Details about the chats and amount of toxicity present in it --->
+# All the Details about the chats and amount of toxicity present in it --->
 ![Dashboard Preview - page1](src/images/FIRST_PAGE_1.png)
 
-#Live Chats Graph and Bar - Sentiment Variation over time and Top Toxic User --->
+# Live Chats Graph and Bar - Sentiment Variation over time and Top Toxic User --->
 ![Dashboard Preview - page2](src/images/SECOND_PAGE_2.png)
 
-#Here the Message Analysis,What are the most frequent words and the Latest Chat Fetch from the Youtube Livestream --->
+# Here the Message Analysis,What are the most frequent words and the Latest Chat Fetch from the Youtube Livestream --->
 ![Dashboard Preview - page3](src/images/THIRD_PAGE_3.png)
 
 
